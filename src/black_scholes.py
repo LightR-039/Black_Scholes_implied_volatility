@@ -24,7 +24,7 @@ def black_scholes_put(S, K, T, r, sigma):
 
 def black_scholes_vega(S, K, T, r, sigma):
     """
-    Compute Vega (sensitivity to volatility).
+    Compute Vega.
     """
     d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
 
