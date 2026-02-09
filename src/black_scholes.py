@@ -3,9 +3,6 @@ from scipy.stats import norm
 
 
 def black_scholes_call(S, K, T, r, sigma):
-    """
-    Compute Black–Scholes price of a European call option.
-    """
     d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
 
@@ -13,9 +10,6 @@ def black_scholes_call(S, K, T, r, sigma):
 
 
 def black_scholes_put(S, K, T, r, sigma):
-    """
-    Compute Black–Scholes price of a European put option.
-    """
     d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
 
@@ -23,9 +17,6 @@ def black_scholes_put(S, K, T, r, sigma):
 
 
 def black_scholes_vega(S, K, T, r, sigma):
-    """
-    Compute Vega.
-    """
     d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
 
     return S * norm.pdf(d1) * np.sqrt(T)
