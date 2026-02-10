@@ -160,14 +160,6 @@ This implied volatility has direct practical meaning for traders:
 
 * If a trader believes future volatility will be **higher than 22.77%**, the option may be undervalued → buying options could be attractive.
 * If the trader expects **lower volatility**, the option may be overpriced → selling or writing options may be preferable.
-
-Implied volatility therefore acts as a bridge between mathematical models and trading decisions. It helps professionals:
-
-* Compare options across markets
-* Assess market expectations of risk
-* Identify potential mispricing
-* Guide hedging and speculative strategies
-
 ---
 
 ## ⚙️ Setup
