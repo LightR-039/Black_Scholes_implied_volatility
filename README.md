@@ -1,6 +1,6 @@
 # Black–Scholes Implied Volatility Solver
 
-A Python implementation of the **Black–Scholes option pricing model** used to compute **implied volatility** from observed market option prices. This project demonstrates how mathematical finance theory, numerical methods, and visualization combine to solve a real quantitative trading problem.
+A Python implementation of the **Black–Scholes option pricing model** used to compute **implied volatility** from observed market option prices
 
 ---
 
